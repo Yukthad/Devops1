@@ -1,0 +1,7 @@
+---
+- hosts: 35.165.10.195
+  tasks:
+  - name: ansible create directory example
+    file:
+      path: /tmp/devops_directory
+      state: directory
